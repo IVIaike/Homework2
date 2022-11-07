@@ -7,5 +7,12 @@ public class Variables {
         System.out.println("cat = "+cat);
         var paper = 763789;
         System.out.println("paper = "+paper);
+
+        dog = dog + 4;
+        System.out.println("dog = "+dog);
+        cat = cat + 4;
+        System.out.println("cat = "+cat);
+        paper = paper + 4;
+        System.out.println("paper = "+paper);
     }
 }
