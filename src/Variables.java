@@ -22,14 +22,21 @@ public class Variables {
         paper = paper - 7639;
         System.out.println("paper = "+paper);
 
-        var friend = 19;
+        var friend = 19; //инициализация переменной friend
         System.out.println("friend = " +friend);
         friend = friend + 2;
         System.out.println("friend = " +friend);
         friend = friend / 3;
         System.out.println("friend = " +friend);
 
-
+        var frog = 3.5; //инициализация переменной frog
+        System.out.println("frog = " +frog);
+        frog = frog * 10;
+        System.out.println("frog = " +frog);
+        frog = frog / 3.5;
+        System.out.println("frog = " +frog);
+        frog = frog + 4;
+        System.out.println("frog = " +frog);
 
     }
 }
