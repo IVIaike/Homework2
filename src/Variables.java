@@ -38,7 +38,7 @@ public class Variables {
         frog = frog + 4;
         System.out.println("frog = " +frog);
 
-        //итоговое задание
+        //Задания 6 и 7
 
         var boxer1 = 78.2;
         var boxer2 = 82.7;
@@ -48,5 +48,19 @@ public class Variables {
         System.out.println("Способ 1. Разница в весе боксеров = " + boxerDifferenceWeight + "кг.");
         boxerDifferenceWeight = boxer2 % boxer1;
         System.out.println("Способ 2. Разница в весе боксеров = " + boxerDifferenceWeight + "кг.");
+
+        // Задание 8
+        var totalWorkingHours = 640;  //общее количество рабочих часов
+        var employeeWorkingTime = 8;  // рабочее время одного сотрудника
+        var totalStaff = totalWorkingHours / employeeWorkingTime;
+        System.out.println("Всего работников в компании - " + totalStaff + " человек.");
+
+        totalStaff = totalStaff + 94;
+        System.out.println("Если сотрудников на 94 человека болше, то всего работников в компании - " + totalStaff + " человека.");
+
+        totalWorkingHours = employeeWorkingTime * totalStaff;
+        System.out.println("Если в компании работает " + totalStaff + " человека, то всего "+ totalWorkingHours + " часа работы может быть поделено между сотрудниками.");
+
+
     }
 }
