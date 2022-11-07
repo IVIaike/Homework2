@@ -38,5 +38,15 @@ public class Variables {
         frog = frog + 4;
         System.out.println("frog = " +frog);
 
+        //итоговое задание
+
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var boxerTotalWeight = boxer1 + boxer2;
+        System.out.println("Суммарный вес боксеров = " + boxerTotalWeight + "кг.");
+        var boxerDifferenceWeight = boxer2 - boxer1;
+        System.out.println("Способ 1. Разница в весе боксеров = " + boxerDifferenceWeight + "кг.");
+        boxerDifferenceWeight = boxer2 % boxer1;
+        System.out.println("Способ 2. Разница в весе боксеров = " + boxerDifferenceWeight + "кг.");
     }
 }
